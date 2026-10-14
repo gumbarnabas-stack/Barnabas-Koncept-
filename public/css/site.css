@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root{--bg:#08090d;--card:#11131a;--text:#f7f7f8;--muted:#a5a8b3;--primary:#7c5cff;--secondary:#ff4fd8;--line:rgba(255,255,255,.09)}
+*{box-sizing:border-box}body{font-family:Inter,sans-serif;background:#fff;color:#15161a}.glass-nav{background:rgba(8,9,13,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navbar{padding:1rem 0}.navbar-brand{letter-spacing:-.5px}.brand-mark{display:inline-flex;width:38px;height:38px;border-radius:12px;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--primary),var(--secondary));font-weight:900;margin-right:8px}.nav-link{color:#c8cad2!important}.nav-link:hover,.nav-link.active{color:#fff!important}.btn-primary{border:0;background:linear-gradient(135deg,var(--primary),hwb(52 8% 22%));box-shadow:0 10px 25px rgba(207, 188, 12, 0.25)}.hero-section,.dark-section{background:var(--bg);color:var(--text)}.hero-section{position:relative;overflow:hidden}.hero-section:before{content:"";position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(207, 188, 12, 0.25),transparent 65%);right:-150px;top:100px}.hero-section h1{font-size:clamp(3rem,7vw,6.5rem);font-weight:900;line-height:.98;letter-spacing:-.06em;max-width:850px}.gradient-text{background:linear-gradient(90deg,#c4b509,#e4dd55);-webkit-background-clip:text;background-clip:text;color:transparent}.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:#c4b509}.hero-trust{display:flex;gap:1.2rem;flex-wrap:wrap;color:#ebe0af;font-size:.86rem}.hero-trust i{color:#c4b509}.hero-card{height:480px;position:relative}.hero-orb{width:330px;height:330px;border-radius:38% 62% 61% 39%;background:linear-gradient(135deg,#c4b509,#dbd821);display:flex;align-items:center;justify-content:center;box-shadow:0 40px 100px rgba(177, 174, 17, 0.3);transform:rotate(-8deg);position:absolute;top:70px;left:80px}.hero-orb span{font-size:6rem;font-weight:900;color:white;transform:rotate(8deg)}.floating-card{position:absolute;z-index:2;background:rgba(207, 188, 12, 0.25);border:1px solid rgba(207, 188, 12, 0.25);backdrop-filter:blur(14px);padding:18px 20px;border-radius:18px;color:#fff;display:flex;flex-direction:column;min-width:170px}.floating-card i{font-size:1.5rem;margin-bottom:10px}.floating-card small{color:#b8bbc6}.card-one{top:35px;right:0}.card-two{bottom:40px;left:0}.section-padding{padding:100px 0}.section-heading{max-width:750px;margin-bottom:50px}.section-heading h2,.cta-section h2{font-size:clamp(2.2rem,5vw,4rem);font-weight:800;letter-spacing:-.04em;margin-top:10px}.feature-card{background:#fff;border:1px solid #e9e9ee;border-radius:24px;padding:32px;transition:.3s;position:relative;overflow:hidden}.feature-card:hover{transform:translateY(-7px);box-shadow:0 20px 50px rgba(207, 188, 12, 0.25)}.feature-card p{color:#d8d4a6;line-height:1.8}.icon-box{width:54px;height:54px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:#f0edff;color:#c4b509;font-size:1.35rem;margin-bottom:24px}.dark-section .project-card{color:#fff}.project-card{display:block;position:relative;overflow:hidden;border-radius:22px;aspect-ratio:4/3;background:#161821;text-decoration:none}.project-card img{width:100%;height:100%;object-fit:cover;transition:.5s}.project-card:hover img{transform:scale(1.06)}.project-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:end;padding:28px;background:linear-gradient(transparent 35%,rgba(0,0,0,.9));color:#fff}.project-overlay h4{margin:5px 0 10px}.project-overlay small{color:#c6b9ff;font-weight:700;text-transform:uppercase;letter-spacing:.1em}.project-overlay span{font-size:.85rem;color:#ddd}.project-placeholder,.detail-placeholder{height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#181a24,#29213d);color:#d6cd27;font-size:3rem}.cta-section{background:#f6f6f8}.cta-section p{max-width:650px}.site-footer{background:#090a0f;color:#fff}.site-footer a{display:block;color:#d3c880;text-decoration:none;margin:.45rem 0}.site-footer a:hover{color:#fff}.socials{display:flex;gap:12px}.socials a{display:flex;width:38px;height:38px;border:1px solid #2a2c35;border-radius:50%;align-items:center;justify-content:center}.page-hero{padding:170px 0 90px;background:var(--bg);color:#fff}.page-hero h1{font-size:clamp(2.8rem,6vw,5.5rem);font-weight:900;letter-spacing:-.05em;margin:.7rem 0}.page-hero p{color:#aeb1bc;max-width:680px;font-size:1.15rem}.small-hero{padding-bottom:70px}.about-visual{height:480px;border-radius:30px;background:linear-gradient(135deg,#f0edff,#ffeafb);display:flex;align-items:center;justify-content:center}.stat-box{padding:20px;border:1px solid #e9e9ee;border-radius:18px}.stat-box strong{display:block;font-size:1.7rem;color:#b8c412}.stat-box span{color:#777}.service-card .service-number{position:absolute;right:25px;bottom:18px;font-size:4rem;font-weight:900;color:#f1f0f6}.detail-image{width:100%;border-radius:25px;max-height:650px;object-fit:cover}.detail-placeholder{height:500px;border-radius:25px}.contact-info{padding:25px 0}.contact-row{display:flex;gap:16px;margin-top:28px}.contact-row>i{width:45px;height:45px;border-radius:14px;background:#f0edff;color:#c7af0d;display:flex;align-items:center;justify-content:center}.contact-row small,.contact-row strong{display:block}.contact-row small{color:#d3c880;margin-bottom:3px}.form-card{padding:35px;border:1px solid #e7e7eb;border-radius:25px;box-shadow:0 20px 60px rgba(20,20,40,.06)}.form-control{padding:.85rem 1rem;border-radius:12px;border-color:#dddde3}.alert-wrap{position:relative;z-index:5;padding-top:85px}.empty-state{padding:50px;text-align:center;border:1px dashed #d9d9e0;border-radius:20px;color:#777}.table-thumb{width:60px;height:45px;object-fit:cover;border-radius:8px}.table-thumb.placeholder{display:flex;align-items:center;justify-content:center;background:#f1f1f5;color:#d3c880}.preview-image{max-width:280px;max-height:180px;border-radius:12px;object-fit:cover}.pagination{--bs-pagination-border-radius:10px}
+@media(max-width:767px){.section-padding{padding:70px 0}.hero-section h1{font-size:3.2rem}.page-hero{padding:135px 0 70px}.form-card{padding:24px}}
+
+/* Barnabas Koncept branded header */
+.brand-logo-wrap{display:inline-flex;width:42px;height:42px;border-radius:12px;align-items:center;justify-content:center;background:#fff;margin-right:9px;overflow:hidden;vertical-align:middle}.brand-logo{width:100%;height:100%;object-fit:contain;padding:5px}.navbar-brand{display:inline-flex;align-items:center;gap:0}.glass-nav{transition:background .3s ease,box-shadow .3s ease}.glass-nav:hover{box-shadow:0 8px 30px rgba(0,0,0,.16)}
+@media(max-width:767px){.brand-logo-wrap{width:40px;height:40px}.brand-logo{padding:5px}}
+/* =========================================================
+   BARNABAS KONCEPT - MOVING PORTFOLIO SHOWCASE
+   ========================================================= */
+
+.recent-work-section {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 50% 70%,
+            rgba(124, 92, 255, .13),
+            transparent 45%
+        ),
+        var(--bg);
+}
+
+.recent-work-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 55px;
+}
+
+.recent-work-heading h2 {
+    color: #fff;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 900;
+    letter-spacing: -.055em;
+    margin: 10px 0 12px;
+}
+
+.recent-work-heading p {
+    color: #9fa2ad;
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* Moving container */
+.portfolio-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 7%,
+        black 93%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 7%,
+        black 93%,
+        transparent
+    );
+}
+
+/* Moving track */
+.portfolio-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: portfolioMove 32s linear infinite;
+    will-change: transform;
+}
+
+/* Pause when mouse enters */
+.portfolio-marquee:hover .portfolio-marquee-track {
+    animation-play-state: paused;
+}
+
+/* Each duplicated group */
+.portfolio-marquee-group {
+    display: flex;
+    gap: 24px;
+    padding-right: 24px;
+    flex-shrink: 0;
+}
+
+/* Individual design */
+.portfolio-slide {
+    width: 330px;
+    height: 430px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    background: #151720;
+    border: 1px solid rgba(255,255,255,.10);
+    text-decoration: none;
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.35),
+        0 0 0 rgba(124,92,255,0);
+
+    transform: scale(.94);
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease,
+        border-color .45s ease;
+}
+
+.portfolio-slide:hover {
+    transform: scale(1.02) translateY(-8px);
+    border-color: rgba(156,124,255,.7);
+
+    box-shadow:
+        0 30px 70px rgba(0,0,0,.5),
+        0 0 45px rgba(124,92,255,.25);
+}
+
+/* Design image */
+.portfolio-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+    transition:
+        transform .7s ease,
+        filter .5s ease;
+}
+
+.portfolio-slide:hover img {
+    transform: scale(1.07);
+    filter: brightness(.78);
+}
+
+/* Overlay */
+.portfolio-slide-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 28px;
+
+    color: #fff;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,.92) 0%,
+            rgba(0,0,0,.58) 38%,
+            transparent 72%
+        );
+
+    opacity: .92;
+}
+
+.portfolio-slide-overlay span {
+    color: #b19cff;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.portfolio-slide-overlay strong {
+    font-size: 1.35rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.portfolio-slide-overlay small {
+    margin-top: 12px;
+    color: #ddd;
+    font-size: .82rem;
+}
+
+.portfolio-slide-overlay small i {
+    margin-left: 5px;
+}
+
+/* Placeholder */
+.portfolio-slide-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #151720,
+            #29213d
+        );
+
+    color: #8074a7;
+    font-size: 4rem;
+}
+
+/* Continuous movement */
+@keyframes portfolioMove {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+/* Purple glowing line underneath */
+.portfolio-scroll-line {
+    width: 85%;
+    height: 2px;
+    margin: 42px auto 0;
+
+    background: rgba(255,255,255,.08);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-scroll-line span {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #A67C00,
+        #F7E27E,
+        #D4AF37,
+        transparent
+    );
+
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+}
+  .btn-primary {
+    background: linear-gradient(
+        135deg,
+        #A67C00,
+        #D4AF37 35%,
+        #FFF0A6 50%,
+        #D4AF37 65%,
+        #A67C00
+    );
+
+    color: #080808;
+    border: none;
+    font-weight: 700;
+
+    .btn-primary:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 15px 40px rgba(212, 175, 55, 0.4),
+        0 0 25px rgba(212, 175, 55, 0.2);
+         animation: portfolioGlow 3s linear infinite;
+}
+}
+
+@keyframes portfolioGlow {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(430%);
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .recent-work-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .recent-work-heading h2 {
+        font-size: 2.7rem;
+    }
+
+    .recent-work-heading .btn {
+        width: 100%;
+    }
+
+    .portfolio-slide {
+        width: 260px;
+        height: 350px;
+    }
+
+    .portfolio-marquee-group {
+        gap: 16px;
+        padding-right: 16px;
+    }
+
+    .portfolio-marquee-track {
+        animation-duration: 25s;
+    }
+
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+
+    .portfolio-marquee-track,
+    .portfolio-scroll-line span {
+        animation: none;
+    }
+
+}
+
+/* =========================================================
+   METALLIC GOLD BRAND EFFECT
+   ========================================================= */
+
+.metallic-gold {
+    background: linear-gradient(
+        135deg,
+        #8A6500 0%,
+        #C9A227 20%,
+        #F7E27E 38%,
+        #FFF4B0 50%,
+        #D4AF37 62%,
+        #A67C00 82%,
+        #F0D45A 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    color: #D4AF37;
+
+    font-weight: 800;
+}
+/* =========================================================
+   MOVING METALLIC GOLD LIGHT LINE
+   ========================================================= */
+
+.portfolio-scroll-line {
+    width: 85%;
+    height: 3px;
+    margin: 42px auto 0;
+    position: relative;
+    overflow: hidden;
+
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+}
+
+.portfolio-scroll-line span {
+    position: absolute;
+    top: 0;
+    left: -35%;
+
+    width: 35%;
+    height: 100%;
+
+    display: block;
+
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        #A67C00 20%,
+        #D4AF37 40%,
+        #FFF4B0 50%,
+        #D4AF37 60%,
+        #A67C00 80%,
+        transparent 100%
+    );
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 8px rgba(212, 175, 55, 0.8),
+        0 0 18px rgba(212, 175, 55, 0.5);
+
+    animation: goldLightMove 3s linear infinite;
+}
+
+@keyframes goldLightMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(385%);
+    }
+}

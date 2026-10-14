@@ -1,0 +1,15 @@
+{
+  "project": "Barnabas Koncept",
+  "framework": "Laravel 12",
+  "features": [
+    "public website",
+    "admin authentication",
+    "dashboard",
+    "service CRUD",
+    "portfolio CRUD",
+    "image uploads",
+    "contact messages",
+    "site settings"
+  ],
+  "files": 48
+}
